@@ -5,7 +5,6 @@ ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3.1'
-# Use sqlite3 as the database for Active Record
 
 gem 'bootstrap-sass', '3.4.1'
 # Use Puma as the app server
@@ -55,7 +54,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.18.0'
+  gem 'pg', '0.20.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
